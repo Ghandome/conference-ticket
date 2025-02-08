@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body {
+    color: white;
+    font-family: Inconsolata, sans-serif; 
+    background-image: url(./assets/images/background-desktop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    text-align: center;
+}
+
+header > img{
+    width: 130px;
+    margin-top: 30px;
+}
+
+.sub-container > h1 {
+    margin-top: 20px;
+}
+
+.sub-container > p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.former {
+    display: inline-block;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px dashed green;
+    cursor: pointer;
+    margin-top: 50px;
+    background-color: black;
+    min-width: 27%;
+    background-color:  hsl(248, 70%, 10%)
+}
+
+.name {
+    display: block;
+    margin-top: 20px;
+    margin-right: 250px;
+    font-size: 12px;
+}
+
+#name {
+    min-width: 333px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color:  hsl(248, 70%, 10%);
+    color: white;
+}
+
+.mail {
+    display: block;
+    margin-top: 20px;
+    margin-right: 240px;
+    font-size: 12px;
+}
+
+#mail {
+    min-width: 333px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:  hsl(248, 70%, 10%);
+    color: white;
+}
+
+.hub {
+    display: block;
+    margin-top: 20px;
+    margin-right: 220px;
+    font-size: 12px;
+}
+
+#hub {
+    min-width: 333px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:  hsl(248, 70%, 10%);
+    color: white;
+}
+
+#submit {
+    min-width: 333px;
+    height: 35px;
+    border-radius: 10px;
+    background-color:  hsl(7, 88%, 67%);
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.former img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+} 
+
+.former input[type="file"] {
+    display: none;
+}
+
+#click {
+    font-size: 13px;
+}
+
+.load {
+    position: absolute;
+    margin-top: 30px;
+    font-size: 12px;
+}
+ 
+.alo img {
+    vertical-align: middle;
+}
+
+.alo {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.major {
+    position: relative;
+    margin-top: 70px;
+}
+
+.inner-gen {
+    position: absolute;
+    top: 20px;
+    left: 380px;
+
+}
+
+.inner-gen > p {
+    font-size: 13px;
+    margin-left: 50px;
+}
+
+.man {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.gent-img {
+    position: relative;
+    bottom: 130px;
+    right: 200px;
+}
+
+.nomk {
+    position: relative;
+    bottom: 190px;
+    right: 70px;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    position: relative;
+    left: 500px;
+    bottom: 190px;
+}
+
+.generated-ticket {
+    display: none;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.ori, .ori2 {
+    margin-top: 30px;
+}
+
+.ori2 {
+    line-height: 25px;
+}
+
+.kris {
+    background-image: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .sub-container > p,
+  .name,
+  .mail,
+  .hub,
+  #click,
+  .alo,
+  .inner-gen > p {
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #sub-container {
+    margin-top: 20px;
+  }
+
+  input[type="text"], input[type="email"], input[type="file"] {
+    width: 100%;
+  }
+
+  .gent-img {
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+  }
+
+  .nomk {
+    position: relative;
+    bottom: 145px;
+    left: 72px;
+  }
+
+  .align {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+  }
+
+  .inner-gen {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+
+}
+  }

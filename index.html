@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CONFERENCE TICKET GENERATOR</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="main.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <main class="main-page">
+            <header>
+                <img src="./assets/images/logo-full.svg" class="header-logo"/>
+            </header>
+        
+            <div class="sub-container">
+                <h1>Your Journey to Coding Conf<br> 2025 Starts Here!</h1>
+                <p id="sub-container">Secure your spot at next year biggest coding conference.</p>
+            </div>
+
+            <form>
+                <label for="avatar" class="load">Upload Avatar</label>
+             <div class="former">
+                    <img src="./assets/images/icon-upload.svg" />
+                 <input type="file" accept="image/*" id="avatar" required/> <br>
+                <span id="click">Drag and Drop or Click to Upload</span>
+            </div>
+                <p class="alo">Upload your photo (JPG or PNG, max-size: 500KB)</p>
+            
+                
+
+                <labeL for="name" class="name">Full Name</labeL> 
+                <input type="text" id="name" required/>
+                <br>
+                <label for="mail" class="mail">Email Address</label> <br>
+                <input type="email" id="mail" placeholder="example@email.com" required/>
+                <br>
+                <label for="hub" class="hub">Github Username</label> <br>
+                <input type="text" id="hub" placeholder="@yourusername" required/>
+                <br>
+                <input type="submit" value="Generate My Ticket" id="submit"/>
+            </form>
+        </main>
+
+
+        <div class="generated-ticket">
+            <header id="generated-ticket">
+                <img src="./assets/images/logo-full.svg" alt="conference-logo" class="generated-logo" />
+            </header>
+
+            <div class="ori">
+                <h1 class="congrats">Congrats, <span class="kris">!</span> <br>Your ticket is ready.</h1>
+            </div>
+            
+            <div class="ori2">
+                <p>We've emailed your ticket to <br> <span id="kris"></span> and will send <br>updates in the run up to the event.</p>
+            </div>
+
+            <div class="major">
+                <img src="./assets/images/pattern-ticket.svg" alt="ticket-proof" class="ticket-proof">
+
+               <div class="inner-gen">
+                    <img src="./assets/images/logo-full.svg" class="second-conf"/>
+                    <p>Jan 11, 2025 / Lagos, Nigeria</p>
+                </div>
+
+                <div class="gent-img">
+                    <img src="./assets/images/image-avatar.jpg" alt="A man" class="man" />
+                </div>
+
+               
+
+                
+                    <p class="nomk">!</p>
+
+                    <div class="align">
+                        <img src="./assets/images/icon-github.svg" alt="git-hub logo" /><span id="nomk">@</span>
+                    </div>
+            
+        
+            </div>
+        </div>
+    </body>
+</html>

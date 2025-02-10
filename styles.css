@@ -162,19 +162,8 @@ header > img{
 
 .nomk {
     position: relative;
-    bottom: 190px;
-    right: 70px;
-}
-
-.align {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-top: 10px;
-    position: relative;
-    left: 500px;
-    bottom: 190px;
-}
+    right: 5px;
+} 
 
 .generated-ticket {
     display: none;
@@ -197,53 +186,57 @@ header > img{
   }
 
 
+  .tttt {
+    display: inline-block;
+    horizontal-align: middle;
+
+  }
+  
+  #nomk {
+    display: inline-block;
+    horizontal-align: middle;
+    margin-left: 6px;
+    margin-top: 12px;
+  }
+  
+  .testing {
+    position: relative;
+    top: -200px;
+    right: 70px;
+  }
+  
+  
+
+
   @media only screen and (max-width: 768px) {
-    .sub-container > p,
-  .name,
-  .mail,
-  .hub,
-  #click,
-  .alo,
-  .inner-gen > p {
-    font-size: 14px;
-    margin: 10px;
-    padding: 10px;
-  }
-
-  #sub-container {
-    margin-top: 20px;
-  }
-
-  input[type="text"], input[type="email"], input[type="file"] {
-    width: 100%;
-  }
-
-  .gent-img {
-    position: relative;
-    bottom: 100px;
-    right: 60px;
-  }
-
-  .nomk {
-    position: relative;
-    bottom: 145px;
-    left: 72px;
-  }
-
-  .align {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-top: 10px;
-    position: relative;
-    left: 200px;
-    bottom: 150px;
-  }
-
-  .inner-gen {
-    position: absolute;
-    top: 20px;
-    left: 70px;
-
-}
+    sub-container > p, .name, .mail, .hub, #click, .alo, .inner-gen > p {
+        font-size: 14px;
+        margin: 10px;
+        padding: 10px;
+        }
+        .sub-container { /* changed from #sub-container to .sub-container */
+        margin-top: 20px;
+        }
+        input[type="text"], input[type="email"], input[type="file"] {
+        width: 100%;
+        }
+        .gent-img {
+        position: relative;
+        bottom: 100px;
+        right: 60px;
+        }
+        .inner-gen {
+        position: absolute;
+        top: 20px;
+        left: 70px;
+        }
+        .nomk {
+        right: 10px;
+        }
+        
+        .testing {
+            position: relative;
+            left: 55px;
+            top: -170px;
+          }
   }
